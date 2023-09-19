@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, nav {
+  text-align: center;
+}
+
+nav a{
+  padding: 10px;
+  background-color:gold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#featured-property {
+  width: 900px; /* Set the width of the container to 900px */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some vertical spacing around the content */
+}
+
+#featured-property p, figcaption{
+  width: 800px; /* Set a fixed width of 800px for <p> elements */
+  margin: 10px auto; /* Center the <p> elements horizontally and add vertical spacing */
+  text-align: center; /* Center the text within <p> elements */
+}
+
+
+div {
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
